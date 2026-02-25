@@ -1,5 +1,6 @@
 本專案基於異構運算與分散式ROS2架構，將Nav2路徑規劃與避障演算法Offload至邊緣運算節點(Raspberry Pi 5)，實現核心算力的精準分配。同時，系統透過CycloneDDS中介層確保跨機大量特徵數據的低延遲傳輸，使x86主機得以專注於高吞吐量的環境模擬與視覺化渲染，提升整體導航控制迴圈的即時性與穩定度。
 ![](./images/IMG_2748.JPG)
+![](./images/cpu.png)
 實體成果影片 https://youtu.be/mxfidJcO7Mo
 RPI5螢幕錄影成果影片 https://youtu.be/t3TaJn3ES-M
 github: https://github.com/Marc66weed/distributed_ros2_nav.git
